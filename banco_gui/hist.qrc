@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>voltar.png</file>
+    <file>historico.png</file>
+  </qresource>
+</RCC>

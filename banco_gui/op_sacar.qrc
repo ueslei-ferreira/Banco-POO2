@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>seta.png</file>
+    <file>saque.png</file>
+    <file>voltar.png</file>
+  </qresource>
+</RCC>
