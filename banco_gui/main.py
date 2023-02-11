@@ -5,16 +5,17 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import QMainWindow, QApplication, QFileDialog, QMessageBox
 from PyQt5.QtCore import QCoreApplication
 
-from tela_login import *
-from tela_cadastra import *
-from banco_teste import *
-from tela_operacoes import *
 
-from tela_depositar import *
-from tela_sacar import *
-from tela_transferencia import *
-from tela_extrato import *
-from tela_historico import *
+from banco_teste import *
+from telas.tela_login import *
+from telas.tela_cadastra import *
+from telas.tela_depositar import *
+from telas.tela_extrato import *
+from telas.tela_historico import *
+from telas.tela_operacoes import *
+from telas.tela_sacar import *
+from telas.tela_transferencia import *
+
 class Ui_Main(QtWidgets.QWidget):
     def setupUi(self, Main):
         Main.setObjectName('Main')

@@ -1,7 +1,7 @@
 import socket
 class Serv_Cliente():
     def __init__(self):
-        self.host = '10.180.44.95'
+        self.host = '127.0.0.1'
         self.port = 50000
         self.s= socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.s.connect((self.host, self.port))

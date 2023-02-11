@@ -2,7 +2,7 @@ import socket
 from conexao_bd import *
 import threading
 bd = BD()
-host = '10.180.44.95'
+host = '127.0.0.1'
 port = 50000
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((host, port))
